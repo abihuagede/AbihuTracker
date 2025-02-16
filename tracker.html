@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbihuTracker 2024</title>
+    <link rel="stylesheet" href="tracker.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>AbihuTracker 2024</h1>
+      <div id="ip-input-section">
+        <div class="closebox">
+          <span class="close">x</span>
+          <h1>😏 Please enter a valid IP address.</h1>
+        </div>
+        <input type="text" id="ip-input" placeholder="Enter IP Address" />
+        <button id="track-button">Track IP</button>
+      </div>
+      <div id="ip-info">
+        <p>IP Address: <span id="ip">Loading...</span></p>
+        <p>Location: <span id="location">Loading...</span></p>
+        <p>Timezone: <span id="timezone">Loading...</span></p>
+        <p>ISP: <span id="isp">Loading...</span></p>
+        <div id="map"></div>
+      </div>
+      <p id="error-message" style="color: red; display: none">
+        Failed to retrieve IP information.
+      </p>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="tracker.js"></script>
+  </body>
+</html>

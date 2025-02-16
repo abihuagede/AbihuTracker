@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  *{
+    color: green;
+  }
+  .container {
+    color: green;
+    border: 2px solid green;
+    position: absolute;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  #ip-input-section {
+    margin-bottom: 10px;
+    
+  }
+  
+  #ip-info {
+    margin-top: 20px;
+  }
+  
+  #map {
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 8px;
+    z-index: -1;
+  }
+  .closebox{
+    border: 2px solid green;
+    padding: 10px;
+    width: 300px;
+    top: 10%;
+    position: absolute;
+    right: 30%;
+    background-color: #000000;
+    z-index: 4;
+    display: none;
+  }
+  .close{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    
+    padding: 4px;
+    display: flex;
+    justify-self: end;
+     
+
+  }
+  h1{
+    font-size: 1.1rem;
+  }
+  .close:hover{
+    background-color: hsla(0, 75%, 55%, 0.658);
+  }
