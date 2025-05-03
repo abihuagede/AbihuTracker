@@ -1,0 +1,40 @@
+body {
+  padding-top: 10px;
+  text-align: center;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="text"]:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+  color: #ccc;
+}
+button:hover {
+  background-color: #45a049;
+}
+#location {
+  margin: 20px auto;
+  padding: 10px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 600px;
+}
