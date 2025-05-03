@@ -38,3 +38,19 @@ button:hover {
   border-radius: 5px;
   width: 600px;
 }
+small {
+  color: gray;
+  font-size: 0.9rem;
+}
+.authur {
+  color: orange;
+}
+.ipjpg {
+  width: 10%;
+  height: auto;
+  margin: 10px;
+}
+h1 {
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
